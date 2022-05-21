@@ -1,11 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from .user import get_user_bp_obj, UserReource, UserReource1
+from .user import get_user_bp_obj, UserReource
 
 
 user_url_route = [
     (UserReource, '/ab'),
-    (UserReource1, '/abc'),
 ]
 
 
